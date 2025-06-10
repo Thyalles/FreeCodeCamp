@@ -1,0 +1,19 @@
+function getGrade(score) {
+  if(scores === 100){
+    return "A++";
+  }else if(scores >= 90){
+    return "A";
+  }else if(scores >= 80){
+    return "B";
+  }else if(scores >= 70){
+    return "C";
+  }else if(scores >= 60){
+    return "D";
+  }else{
+    return "F";
+  }
+}
+
+console.log(getGrade(96));
+console.log(getGrade(82));
+console.log(getGrade(56));
